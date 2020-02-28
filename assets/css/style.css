@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.nav--img {
+    width: 3rem;
+}
+.nav--logo {
+  width: 12vmax;
+  margin-left: 2vmax;
+}
+
+.btn-danger{
+    font-size: 40px;
+  }
+  
+  .img--profesor {
+    width: 2rem;
+    text-align: right;
+  }
+
+  body {
+    background-image: url("../img/wp1902719.jpg");
+    width: 100%;
+  }
+.header__img{
+  margin-top: 1vmax;
+  padding-top: 21vmax;
+}
+  .container--header {
+    width: 90vmax;
+    height: 63vmax;
+    background-image: url(../img/pokedex.png);
+  }
+
+.pikachu {
+  margin-left: 12vmax;
+  margin-top: -1.8vmax;
+  padding-top: 0vmax;
+}
+.img--pokedex {
+  width: 90%;
+}
