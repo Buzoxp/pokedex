@@ -38,7 +38,36 @@
   margin-left: 12vmax;
   margin-top: -1.8vmax;
   padding-top: 0vmax;
+ float: left;
 }
 .img--pokedex {
   width: 90%;
+}
+
+.grafico {
+  width: 17.5rem;
+  height: 20vmax;
+ 
+}
+.cardgrafico {
+  float: right;
+  margin-right: 13vmax;
+  
+  
+}
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
